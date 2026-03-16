@@ -74,6 +74,9 @@ input_data = pd.DataFrame({
     "PaymentMethod": [payment_map[payment_method]]
 })
 
+# Match features with training data
+input_data = input_data.reindex(columns=scaler.feature_names_in_, fill_value=0)
+
 # Scale data
 input_scaled = scaler.transform(input_data)
 
