@@ -19,6 +19,13 @@ A user-friendly dashboard was built using **Streamlit**, allowing users to input
 
 ---
 
+## Application Preview
+
+![Dashboard](Screenshots/app_dashboard.png)
+
+![Prediction](Screenshots/prediction_result.png)
+
+
 ## Dataset
 
 Dataset Used : **Telco Customer Churn Dataset**
